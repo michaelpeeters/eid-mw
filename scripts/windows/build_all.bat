@@ -1,3 +1,4 @@
+setlocal disabledelayedexpansion
 :: options for build file
 ::@set DONT_MERGE_VCRT=yes
 
@@ -202,3 +203,4 @@ goto end_resetpath
 
 :end
 
+endlocal
